@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+/*main structure */
 header{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -29,14 +30,6 @@ main{
     margin:0px;
 }
 
-ul{
-    list-style-position:inside;
-}
-
-ol{
-    list-style-position:inside;
-}
-
 hr{
     width:200px;
 }
@@ -48,11 +41,22 @@ footer{
     padding:25px;
 }
 
+/* list styling*/
+ul{
+    list-style-position:inside;
+    height:100px;
+}
+
+ol{
+    list-style-position:inside;
+}
+
+/* Link Styling*/
 a:link{
-    color:royalblue;
+    color:navy;
 }
 a:visited{
-    color:darkblue;
+    color:darkgreen;
 }
 a:hover{
     color:lightseagreen;
@@ -60,4 +64,3 @@ a:hover{
 a:active{
     color:teal;
 }
-
